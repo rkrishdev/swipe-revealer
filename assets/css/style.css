@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container .content-wrapper {
+  width: 100%;
+  max-width: 500px;
+}
+
+.container .content-wrapper h2 {
+  text-align: center;
+  margin: 2em 0 1em 0;
+}
+
+#canvas-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#canvas-wrapper,
+#canvas-wrapper img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 600px;
+}
+
+#canvas-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  z-index: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+#canvas-wrapper img.allow {
+  user-select: all;
+  pointer-events: all;
+}
+
+#overlay-canvas {
+  transition: 0.25s linear;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#overlay-canvas.clear {
+  opacity: 0;
+}
