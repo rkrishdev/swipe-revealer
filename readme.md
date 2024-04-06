@@ -1,4 +1,4 @@
-# Card/Element Revealer
+# Swipe Revealer Revealer
 
 This is a project I built to learn JavaScript Canvas. It's a simple card/element revealer that works well on both desktop and mobile devices.
 
