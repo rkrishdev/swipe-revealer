@@ -16,10 +16,12 @@ I'm planning to add more features to this project. Stay tuned!
 To use this application, follow the steps below:
 
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/rkrishdev/swipe-revealer.git
     ```
 2. Navigate to the cloned repository:
+
     ```bash
     cd swipe-revealer
     ```
